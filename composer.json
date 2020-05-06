@@ -1,5 +1,12 @@
 {
-    "require": {
-      "php": "^7.1.0"
-    }
+    "name": "sam/ac",
+    "description": "Website for a Business Owner",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Samuelzinh0",
+            "email": "samuelzinhomoreira@outlook.com"
+        }
+    ],
+    "require": {}
 }
