@@ -23,7 +23,7 @@
 <body>
 
   <div class="jumbotron text-center">
-    <h1>Welcome to the Review Page!</h1>
+    <h1>Review Page</h1>
   </div>
   <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -40,17 +40,17 @@
 </nav>
 
 <form action="addReviews.php" method="POST" style="margin-left:5%; margin-right:5%">
-  <h2>Write Your Review Here!</h2>
+  <h2>Please leave a review of our services</h2>
   <div class="form-group">
     <label for="nameOfUser">User name:</label>
     <input type="text" class="form-control" id="nameOfUser" name="nameOfUser" placeholder="(Your name here)">
   </div>
   <div class="form-group">
-    <label for="reviewTitle">Review Title:</label>
+    <label for="reviewTitle">Title:</label>
     <input type="text" class="form-control" id="reviewTitle" name="reviewTitle" placeholder="(Your review title here)">
   </div>
   <div class="form-group">
-    <label for="reviewRating">Review Rating:</label>
+    <label for="reviewRating">Rating:</label>
     <select class="form-control" id="reviewRating" name="reviewRating">
       <option value="1">1</option>
       <option value="2">2</option>
@@ -64,7 +64,7 @@
     <input type="text" class="form-control" id="userType" name="userType" placeholder="(Landscape Designer/Homeowner)">
   </div>
   <div class="form-group">
-    <label for="commentContent">Review Content:</label>
+    <label for="commentContent">Review:</label>
     <textarea class="form-control" id="commentContent" name="commentContent" rows="3"></textarea>
   </div>
 
@@ -73,7 +73,7 @@
 
   <div class="container">
     <div class="row">
-        <h3>Already Written Reviews</h3>
+        <h3>Past reviews</h3>
 
         <?php
         
