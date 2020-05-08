@@ -5,7 +5,7 @@
     $type_user = $_POST['userType'];
     $content_comment = $_POST['commentContent'];
 
-    require('dbConnect.php');
+    require('databaseConnect.php');
 
     $db = get_db();
 
