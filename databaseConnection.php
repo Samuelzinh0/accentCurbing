@@ -8,7 +8,7 @@ function get_db() {
         $dbHost = $dbOpts["host"];
         $dbPort = $dbOpts["port"];
         $dbUser = $dbOpts["user"];
-        $dbPasswprd = $dbOpts["pass"];
+        $dbPassword = $dbOpts["pass"];
         $dbName = ltrim($dbOpts["path"],'/');
 
         $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
